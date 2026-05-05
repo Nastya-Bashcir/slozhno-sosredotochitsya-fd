@@ -1,23 +1,13 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
-  --color: #FF8DCB;
+  --color: #353430;
   --color-rec: transparent;
   --corner-color: #353430;
   --text-color-title: #FFC2E6;
   --text-color-label: #353430;
   --bg-color-text: #FF8DCB;
-  --section-text-color: #353430; 
+  --section-text-color: #353430;
   --accent-color: #FF8DCB;
   --button-color: #353430;
 }
@@ -25,15 +15,14 @@
   :root {
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
-  --color: #FF8DCB;
+  --color: #353430;
   --color-rec: transparent;
   --corner-color: #353430;
   --text-color-title: #FFC2E6;
   --text-color-label: #353430;
   --bg-color-text: #FF8DCB;
-  --section-text-color: #353430; 
+  --section-text-color: #353430;
   --accent-color: #FF8DCB;
   --button-color: #353430;
   }
-  
 }

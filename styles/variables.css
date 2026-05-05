@@ -1,8 +1,5 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
-:root { 
+
+:root {
   --main-font: 'IBM Plex mono', sans-serif;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
@@ -14,5 +11,5 @@
   --section-text-color: #F1B2CE;
   --main-gap: 20px;
   --accent-color: #FF0070;
-  --button-color: #FF0070;  
+  --button-color: #FF0070;
 }
