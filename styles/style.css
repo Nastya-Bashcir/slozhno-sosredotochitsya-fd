@@ -247,7 +247,7 @@ h1 {
   }
   .section-column {
     column-gap: var(--main-gap);
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 2fr;
     display: grid;
   }
   .margin_text {
@@ -263,7 +263,7 @@ h1 {
   .about-section {
     display: grid;
     gap: var(--main-gap);
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 2fr;
   }
   .text-bottom {
     grid-column: 1;
