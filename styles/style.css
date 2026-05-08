@@ -278,6 +278,8 @@
   }
   .margin_text {
     grid-column: 2;
+    margin-bottom: 20px;
+  }
   }
   .section-label-text {
     grid-column: 2;
@@ -326,7 +328,7 @@
   .item-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: var(--main-gap);
+    column-gap: var(--main-gap);
   }
   .title-text_width {
     grid-column: 1/-1;
