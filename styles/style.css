@@ -148,6 +148,9 @@
   font-weight: 400;
   margin-bottom: 20px;
 }
+.title_text_section {
+  margin-bottom: 20px;
+}
 .section {
   padding-bottom: 50px;
 }
@@ -204,6 +207,12 @@
     grid-template-rows: 1fr min-content 1fr;
     align-content: space-around;
   }
+  .text-bottom {
+    padding-bottom: 0;
+  }
+  .title-text_width {
+    padding-bottom: 20px;
+  }
   .footer {
     margin-top: 60px;
   }
@@ -212,9 +221,6 @@
   }
   .section {
   padding-bottom: 80px;
-  }
-  .text-bottom {
-  padding-bottom: 0;
   }
   .header_text {
     grid-column: 2;
