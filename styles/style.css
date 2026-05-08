@@ -106,7 +106,7 @@
   border-right: none;
 }
 .title {
-  font-size: clamp(7.25rem, 4.9983rem + 10.1485vw, 9.8125rem);
+  font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   font-family: var(--main-font, 'IBM Plex mono', sans-serif);
   text-shadow: 4px 4px 0 var(--accent-color);
   color: var(--text-color-title);
