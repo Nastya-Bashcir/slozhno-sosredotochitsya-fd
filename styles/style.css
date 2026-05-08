@@ -146,6 +146,8 @@
   color: var(--section-text-color, #F1B2CE);
   font-size: 18px;
   font-weight: 400;
+}
+.section-label {
   margin-bottom: 20px;
 }
 .title_text_section {
