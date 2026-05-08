@@ -287,7 +287,6 @@
   }
   .about-section {
     display: grid;
-    gap: var(--main-gap);
     grid-template-columns: 1fr 2fr;
   }
   .text-bottom {
