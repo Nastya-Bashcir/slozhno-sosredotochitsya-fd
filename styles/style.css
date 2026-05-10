@@ -38,6 +38,7 @@
   border: 1px solid transparent;
   padding: 1.5px 13px;
   cursor: pointer;
+  line-height: 18px;
 }
 .header__theme-menu-button:hover {
   border-color: color-mix(in srgb, var(--button-color), transparent 50%);
@@ -128,7 +129,7 @@
   justify-self: center;
   grid-column: span 2;
   grid-row: 3;
-  margin: 10px;
+  margin: 10px 10px 10px 0;
 }
 .title-text {
   font-family: var(--main-font, 'IBM Plex mono', sans-serif);
@@ -146,15 +147,14 @@
   color: var(--section-text-color, #F1B2CE);
   font-size: 18px;
   font-weight: 400;
-}
-.section-label {
   margin-bottom: 20px;
+  line-height: 23.4px;
 }
 .title_text_section {
   margin-bottom: 20px;
 }
 .section {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .section:last-child {
   padding-bottom: 0;
@@ -212,6 +212,7 @@
   }
   .text-bottom {
     padding-bottom: 0;
+    grid-column: 1;
   }
   .title-text_width {
     padding-bottom: 20px;
@@ -223,12 +224,12 @@
   padding: 60px 20px 0 20px;
   }
   .section {
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   }
   .header_text {
     grid-column: 2;
     grid-row: 3;
-    margin: 20px;
+    margin-right: 20px;
   }
   .title {
     grid-column: span 2;
@@ -274,28 +275,20 @@
     grid-row: 3/4;
   }
   .section-column {
-    column-gap: var(--main-gap);
+    column-gap: 10px;
     grid-template-columns: 1fr 2fr;
     display: grid;
   }
   .margin_text {
     grid-column: 2;
-    margin-bottom: 20px;
   }
   .section-label-text {
     grid-column: 2;
   }
-  .info-section {
-    grid-column: span 2;
-  }
   .about-section {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
-  }
-  .text-bottom {
-    grid-column: 1;
-    grid-row: span 3;
+    column-gap: 10px;
   }
   .about-section_right {
     grid-column: 2;
@@ -327,15 +320,25 @@
     padding-top: 0px;
     top: 0;
   }
+  .header_text {
+
+  }
   .item-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: var(--main-gap);
   }
   .title-text_width {
+    max-width: 315px;
     grid-column: 1/-1;
   }
   .info-section_row {
     width: 100%;
+  }
+  .info-section_column {
+    grid-column: 2;
+  }
+  .text-bottom {
+    grid-row: span 2;
   }
 }
