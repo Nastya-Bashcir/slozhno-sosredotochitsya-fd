@@ -18,16 +18,16 @@
   grid-template-rows: 1fr min-content 1fr;
 }
 .header__theme-menu {
-  align-self: center;
+  align-self: end;
   justify-self: flex-end;
   grid-column: 2;
   grid-row: 1;
-  padding: 10px;
+  padding: 10px 10px 65px 10px;
 }
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 .header__theme-menu-button {
   font-family: var(--main-font, 'IBM Plex mono', sans-serif);
@@ -36,7 +36,7 @@
   color: var(--button-color, #FF0070);
   background: transparent;
   border: 1px solid transparent;
-  padding: 1.5px 13px;
+  padding: 3px 15px;
   cursor: pointer;
   line-height: 18px;
 }
@@ -116,6 +116,7 @@
   margin: auto 0;
   grid-column: span 2;
   grid-row: 2;
+  padding-left: 10px;
 }
 .title-decor {
   font-family: var(--main-font, 'IBM Plex mono', sans-serif);
@@ -129,7 +130,7 @@
   justify-self: center;
   grid-column: span 2;
   grid-row: 3;
-  margin: 10px 10px 10px 0;
+  margin: 0 10px 10px 10px;
 }
 .title-text {
   font-family: var(--main-font, 'IBM Plex mono', sans-serif);
@@ -166,6 +167,9 @@
   padding-bottom: 20px;
 }
 .margin_text {
+  margin-bottom: 10px;
+}
+.section_img_margin {
   margin-bottom: 10px;
 }
 .text-link {
@@ -221,7 +225,10 @@
     margin-top: 60px;
   }
   .main {
-  padding: 60px 20px 0 20px;
+   padding: 60px 20px 0 20px;
+  }
+  .section_img_margin {
+    margin-bottom: 20px;
   }
   .section {
   padding-bottom: 60px;
@@ -319,9 +326,6 @@
     gap: 10px;
     padding-top: 0px;
     top: 0;
-  }
-  .header_text {
-
   }
   .item-section {
     display: grid;
